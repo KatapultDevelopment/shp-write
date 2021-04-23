@@ -19207,6 +19207,7 @@ module.exports = function(gj, options) {
 module.exports.download = require('./src/download')
 module.exports.write = require('./src/write')
 module.exports.zip = require('./src/zip')
-
-},{"./src/download":94,"./src/write":103,"./src/zip":104}]},{},[105])(105)
+module.exports.geojson = require('./src/geojson')
+module.exports.prj = require('./src/prj')
+},{"./src/download":94,"./src/geojson":97,"./src/prj":101,"./src/write":103,"./src/zip":104}]},{},[105])(105)
 });
